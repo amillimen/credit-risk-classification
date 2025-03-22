@@ -20,6 +20,7 @@ Original Data Classification Report:
 To attempt to improve the prediction model, the data was resampled using "RandomOverSample", then the same analysis steps were repeated with the resampled data. With the oversampled data, the logistic regression accuracy decreased slightly overall, but the models ability to predict unhealthy loans improved, while the Healthy Loan predictions became slightly less accurate. With the higher precision of hte high risk loans, there are fewer false positives in the high risk category, but the model is still predicting health loans correclty at a very high rate. 
 
 Training Data Score: 0.9659008120546582
+Resampled Data Report: 
               precision    recall  f1-score   support
 
      Healthy       0.94      0.99      0.97     56277
